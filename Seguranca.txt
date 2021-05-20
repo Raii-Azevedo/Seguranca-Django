@@ -1,0 +1,25 @@
+RECURSOS AUTOMÁTICOS DE SEGURANÇA DO DJANGO
+- Cross Site Scripting (XSS)
+Que permite o atacante a injetarem scripts em sites, com HTML ou JavaScript.
+Mudando o comportamento das páginas Web.
+
+- Cross Site Request Forgery (CSRF)
+{% csrf_token %}
+Recurso que impede a exploração de um website que transições não permitidas sejam relacionadas.
+Porque toda entrada de usuário pode ser perigosa e precisa ser validada.
+O Django provê um token nos formulários.
+
+- SQL Injection
+O django vem preparado contra SQL Injection, é um dos ataques mais comuns, através de um formulário de entrada de dados, e quando
+clica no botão para fazer login e ocorre a combinação do dadof fornecido com o salvo no banco de dados.
+Sites sem essa proteção, o cracker insere comandos que vão modificar o comportamento do que está ssendo escrito, podendo até conceder permissão de adm.
+
+- Suporta HTTPS e TLS
+Quando a aplicação é startada com runserver entra em HTTP (Protocolo da internet sem segurança)  e não no HTTPS, ele permite
+que a aplicação só funcione em HTTPS.
+
+- Armazenamento Seguro de Senhas
+Qualquer senha nunca deve ser armazenada em banco de dados em texto puro, ela precisa ser criptografada.
+
+- Algoritmo PBKDF2 com hash SHA256 recomendado pelo Instituto NIST.
+É o algoritmo de criptografia de dados utilizados pelo Django.
