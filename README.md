@@ -15,7 +15,7 @@ Aqui estão as tecnologias utilizadas nesse projeto:
 ## Links
  
   - Repository: https://github.com/Raii-Azevedo/Seguranca-Django
-  - Tutorial: 
+  - Tutorial: https://github.com/Raii-Azevedo/Seguranca-Django/blob/master/Melhorando%20a%20seguran%C3%A7a%20do%20Django.pdf
  
  
 ## Versão
